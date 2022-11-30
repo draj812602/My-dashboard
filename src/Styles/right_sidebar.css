@@ -1,0 +1,136 @@
+.hidden {
+	position: absolute;
+	margin-right: 3rem !important;
+	height: 35px;
+	width: 35px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s ease-out 300ms, opacity 0.5s;
+}
+
+.right_sidebar {
+	position: absolute;
+	margin-right: 3rem !important;
+	height: 35px;
+	width: 35px;
+	transition: opacity 0.5s ease-in;
+	transform: translate(0);
+	opacity: 1;
+}
+
+.ri-add-line {
+	transition: ease-in-out;
+}
+
+.ri-close-line {
+	transition: ease-in-out;
+}
+
+.right_sidebarDefault {
+	position: absolute;
+	margin-left: 2.7rem !important;
+
+	height: 30px;
+	width: 30px;
+
+	
+}
+
+.common_widgets_container {
+	background: #ee5c4c;
+	border-radius: 50%;
+
+	height: 36px;
+
+	position: relative;
+
+	
+}
+
+.common_widgets_containerCancel {
+	background-image: linear-gradient(to top, #ee3330, #fe775f);
+	
+	border-radius: 50%;
+	color: #fff;
+	height: 35px;
+	width: 35px;
+	position: relative;
+	top: 5px;
+
+}
+
+.icon_widgets {
+	font-size: 24px;
+	color: #7e7a7a;
+	cursor: pointer;
+}
+
+.circle-iconCancel {
+	color: rgb(0, 0, 0) !important;
+
+	font-size: 25px !important;
+	font-weight: bold;
+
+	position: relative;
+
+	display: grid;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	padding: 10px 10px;
+	left: 15px;
+
+	stroke: white;
+	stroke-width: 0;
+	top: 45%;
+	transform: translate(-50%, -50%);
+}
+
+.circle-icon {
+	display: grid;
+	align-items: center;
+	color: #ffffff;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	padding: 20px 20px;
+	left: 32%;
+	position: absolute;
+	stroke: white;
+	stroke-width: 0;
+	top: 38%;
+	/* margin-right: 90px !important; */
+	transform: translate(-50%, -50%);
+}
+
+.circle-icon:hover {
+	color: #36435e;
+	display: grid;
+	align-items: center;
+	cursor: pointer;
+	position: absolute;
+	stroke: white;
+	stroke-width: 0;
+	top: 38%;
+	/* margin-right: 90px !important; */
+	transform: translate(-50%, -50%);
+}
+
+.icon_widgets:hover {
+	color: #0065e3;
+}
+
+.widgets_hr {
+	width: 65%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+/* To disable horizontal scroll bar on the bottom */
+body::-webkit-scrollbar {
+	display: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}

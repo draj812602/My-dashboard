@@ -1,0 +1,56 @@
+ .device_modal_class .modal-content {
+	background-color: #ffffff;
+	opacity: 1;
+	min-height: 275px !important;
+}
+
+.device_register {
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0px;
+	color: #242424;
+	opacity: 1;
+	margin-bottom: 24px;
+}
+.ri-arrow-left-line {
+	position: relative;
+	top: 2px;
+}
+.device_container {
+	background-color: #ffffff;
+	border-left: 10px solid #141b29;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+	margin-left: 20px !important;
+	position: fixed;
+}
+.device_container_notactive {
+	background-color: #ffffff;
+	border-left: 10px solid #eeeeee;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+	margin-left: 20px !important;
+	border-radius: 10px;
+}
+.devi {
+	margin-top: 150px !important;
+}
+.mac_heading,
+.loc_heading {
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #585555;
+	opacity: 1;
+	padding-left: 12px;
+}
+
+.mac_add,
+.location {
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #242424;
+	opacity: 1;
+	padding-left: 12px;
+	word-break: break-all;
+}
+

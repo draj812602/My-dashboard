@@ -1,0 +1,35 @@
+.modal-open {
+    padding: 0px !important;
+}
+
+#popover_option_click {
+    border-radius: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#popoverasDropdown {
+    width: 100%;
+    position: absolute;
+    top: 0px !important;
+}
+
+#popoverasDropdown>.arrow {
+    display: none;
+}
+
+.inputAsSelect {
+    background: #c4d5f6 !important;
+}
+
+
+
+.colorPaletteContainer {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+    /* width: 10px; */
+    border-top: 1px solid #EAE7E7;
+    border-bottom: 1px solid #EAE7E7;
+}

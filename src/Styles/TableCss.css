@@ -1,0 +1,24 @@
+.table tr td  {
+    border-bottom: 1px solid #eeeeee;
+       font-size: 14px;
+        height: 2.5rem;
+       color: black;
+       font-weight: 500;
+       
+}
+.table thead th {
+    background-color: #bac3d5;
+    padding-left: 12px;
+    font-size: 14px;
+    	color: #636262;
+    	font-weight: 600;	
+}
+th .caret-4-asc:before{
+    color: #516182 !important;
+}
+th .caret-4-desc:after {
+    color: #516182 !important;
+}
+.expand-cell-header,.expand-cell{
+    cursor: pointer;
+}

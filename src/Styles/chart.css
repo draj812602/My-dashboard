@@ -1,0 +1,180 @@
+.chart_widget,
+.sensorPower_widget,
+.sensorPower_widget_boolean {
+	min-height: 348px !important;
+	box-shadow: 0px 4px 25px #e1e1e1;
+	border-radius: 4px !important;
+}
+
+.headingWidgets {
+	margin: -6px -16px -2px -16px;
+	padding: 10px 16px 0px 12px;
+	border-radius: 4px;
+
+}
+
+.chartTitle {
+	clear: both;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.commonClassWidget {
+	border-radius: 10px;
+	box-shadow: 0 0 30px 0 #3333331a;
+	padding: 6px 12px !important;
+	background-color: #ffffff;
+	height: 330px;
+
+}
+
+.commonClassWidget_user {
+	border-radius: 10px;
+	box-shadow: 0 0 30px 0 #3333331a;
+	padding: 6px 12px !important;
+	background-color: #73bbdf;
+	height: 289px;
+	width: 506px;
+
+}
+
+.commonClassWidgetComands {
+	border-radius: 10px;
+	box-shadow: 0 0 30px 0 #3333331a;
+	padding: 6px 12px !important;
+	background-color: #ffffff;
+	height: 160px;
+
+}
+
+.hrCHart {
+	margin-left: -13px !important;
+	margin-right: -13px !important;
+	margin-top: 0px !important;
+}
+
+.tabHrs {
+	color: #959393;
+	cursor: pointer;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.tabHrs:hover {
+	color: #000000 !important;
+}
+
+.tabHrsActive {
+	color: #d94239 !important;
+	font-weight: bold !important;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.hrsTabCOntainer {
+	margin-top: -8px;
+}
+
+.headingCharticon {
+	font-size: 22px;
+	margin-top: -5px;
+	margin-right: 12px;
+	color: #d94239;
+}
+
+
+.react-grid-layout {
+	margin-left: -20px !important;
+	margin-top: 100px;
+	margin-bottom: 10px;
+
+}
+
+
+.boolean_onBtn {
+	background-color: #ffffff;
+	border: solid 4px #ff6651;
+	width: 75px;
+	height: 75px;
+	border-radius: 50% !important;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 30px 0 #d4a4a4;
+	margin-top: -28px;
+}
+
+.D2CBool_onBtn {
+	background-color: #ffffff;
+	border: solid 4px #ff6651;
+	width: 75px;
+	height: 75px;
+	border-radius: 50% !important;
+	color: white;
+	cursor: auto;
+	box-shadow: 0 0 30px 0 #d4a4a4;
+	margin-top: -28px;
+}
+
+.D2Cboolean_ofBtn,
+.boolean_ofBtn {
+	background-color: #b8c3d7 !important;
+	border: 1px solid white !important;
+	width: 75px;
+	height: 75px;
+	border-radius: 50% !important;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+	margin-top: -28px;
+}
+
+.D2Cboolean_ofBtn {
+	cursor: auto !important;
+}
+
+.dotBooleanOf {
+	height: 8px;
+	width: 8px;
+	background-color: #da1e28;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.On_switch {
+	width: 75px;
+	height: 75px;
+	border-radius: 50% !important;
+	cursor: auto;
+	margin-top: 14px;
+	background: #FEF9E8;
+	border: 4px solid #F1C21B;
+	box-shadow: 0px 4px 25px #E1E1E1 !important;
+}
+
+.Off_switch {
+	width: 75px;
+	height: 75px;
+	border-radius: 50% !important;
+	cursor: auto;
+	margin-top: 14px;
+	background: #F4F4F4;
+	border: 4px solid #727272;
+	box-shadow: 0px 4px 25px #E1E1E1 !important;
+}
+
+.on_dot {
+	background-color: #5B4ADB;
+	width: 7px;
+	height: 7px;
+	border-radius: 50% !important;
+
+}
+
+.off_dot {
+	background-color: #DA1E28;
+	width: 7px;
+	height: 7px;
+	border-radius: 50% !important;
+
+}

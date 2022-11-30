@@ -1,0 +1,26 @@
+.error_container {
+	position: relative;
+	top: 139px;
+}
+
+.woops {
+	font-size: 96px;
+	font-weight: medium;
+	letter-spacing: 0px;
+	color: #edac1880;
+	opacity: 1;
+}
+.error_content {
+	font-size: 24px;
+	font-weight: medium;
+	letter-spacing: 0px;
+	color: #003049;
+	opacity: 1;
+	margin-top: -40px;
+}
+
+.notFoundImg {
+	width: 355px;
+	height: 307px;
+	margin-top: 48px;
+}

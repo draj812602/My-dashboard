@@ -1,0 +1,30 @@
+[
+	{
+		"intervalTime": "30M",
+		"intervalName": "30 Minutes"
+	},
+	{
+		"intervalTime": "1H",
+		"intervalName": "1 Hour"
+	},
+	{
+		"intervalTime": "4H",
+		"intervalName": "4 Hour"
+	},
+	{
+		"intervalTime": "6H",
+		"intervalName": "6 Hour"
+	},
+	{
+		"intervalTime": "12H",
+		"intervalName": "12 Hour"
+	},
+	{
+		"intervalTime": "1D",
+		"intervalName": "1 Day"
+	},
+	{
+		"intervalTime": "1W",
+		"intervalName": "1 week"
+	}
+]

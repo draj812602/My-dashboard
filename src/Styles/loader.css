@@ -1,0 +1,99 @@
+.loading-container {
+	height: 100px;
+	position: relative;
+	width: 100px;
+	border-radius: 100%;
+	top: 200px;
+	left: -220px;
+}
+
+.loading-container {
+	margin: 40px auto;
+}
+.dot-pulse {
+	position: relative;
+	left: -9999px;
+	width: 3px;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #516182;
+	color: #516182;
+	box-shadow: 9999px 0 0 -5px #516182;
+	animation: dotPulse 1.5s infinite linear;
+	animation-delay: 0.25s;
+}
+
+.dot-pulse::before,
+.dot-pulse::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	width: 3px;
+	height: 3px;
+	border-radius: 2px;
+	background-color: #516182;
+	color: #516182;
+}
+
+.dot-pulse::before {
+	box-shadow: 9984px 0 0 -5px #516182;
+	animation: dotPulseBefore 1.5s infinite linear;
+	animation-delay: 0s;
+}
+
+.dot-pulse::after {
+	box-shadow: 10014px 0 0 -5px #516182;
+	animation: dotPulseAfter 1.5s infinite linear;
+	animation-delay: 0.5s;
+}
+
+@keyframes dotPulseBefore {
+	0% {
+		box-shadow: 9984px 0 0 -5px #516182;
+	}
+	30% {
+		box-shadow: 9984px 0 0 2px #516182;
+	}
+	60%,
+	100% {
+		box-shadow: 9984px 0 0 -5px #516182;
+	}
+}
+
+@keyframes dotPulse {
+	0% {
+		box-shadow: 9999px 0 0 -5px #516182;
+	}
+	30% {
+		box-shadow: 9999px 0 0 2px #516182;
+	}
+	60%,
+	100% {
+		box-shadow: 9999px 0 0 -5px #516182;
+	}
+}
+
+@keyframes dotPulseAfter {
+	0% {
+		box-shadow: 10014px 0 0 -5px #516182;
+	}
+	30% {
+		box-shadow: 10014px 0 0 2px #516182;
+	}
+	60%,
+	100% {
+		box-shadow: 10014px 0 0 -5px #516182;
+	}
+}
+
+.loaderdots {
+	margin-left: 2px;
+	margin-top: -8px;
+	margin-left: 73px;
+}
+
+.loaderimage {
+	width: 550px;
+	height: 300px;
+}

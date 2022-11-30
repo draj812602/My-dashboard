@@ -1,0 +1,75 @@
+{
+	"data": {
+		"UpdateRawData": {
+			"user_id": 4,
+			"device_identifier": "h50rjwktkx",
+			"columns": [
+				{
+					"dataField": "Timestamp",
+					"text": "Timestamp",
+					"sort": true
+				},
+				{
+					"dataField": "Message_Type",
+					"text": "Message type",
+					"sort": true
+				},
+				{
+					"dataField": "Unmodeled_Data",
+					"text": "Unmodeled data",
+					"sort": false
+				},
+				{
+					"dataField": "temperature",
+					"text": "temperature",
+					"sort": false
+				},
+				{
+					"dataField": "humidity",
+					"text": "humidity",
+					"sort": false
+				},
+				{
+					"dataField": "pressure",
+					"text": "Pressure",
+					"sort": false
+				}
+			],
+			"data": [
+				{
+					"Timestamp": "09/05/2022, 13:46:57",
+					"Message_Type": "Telemetry",
+					"Modeled_RawData": "{\"temperature\":\"30.3\",\"humidity\":\"45\"}",
+					"RawJsonObj": {
+						"_eventType": "Telemetry",
+						"_timeStamp": "1652084217593",
+						"_unmodeledData": "{\"pressure\":\"30\"}"
+					},
+					"Unmodeled_Data": "{\"pressure\":\"30\"}"
+				},
+				{
+					"Timestamp": "10/05/2022, 13:46:57",
+					"Message_Type": "Telemetry",
+					"Modeled_RawData": "{\"humidity\":\"45\"}",
+					"RawJsonObj": {
+						"_eventType": "Telemetry",
+						"_timeStamp": "1652084217593",
+						"_unmodeledData": "{\"pressure\":\"30\",\"temperature\":\"30.3\"}"
+					},
+					"Unmodeled_Data": "{\"pressure\":\"30\",\"temperature\":\"30.3\"}"
+				},
+				{
+					"Timestamp": "10/05/2022, 13:46:57",
+					"Message_Type": "Telemetry",
+					"Modeled_RawData": "{\"pressure\":\"45\"}",
+					"RawJsonObj": {
+						"_eventType": "Telemetry",
+						"_timeStamp": "1652084217593",
+						"_unmodeledData": "{\"pressure\":\"30\",\"temperature\":\"30.3\"}"
+					},
+					"Unmodeled_Data": "{\"humidity\":\"30\",\"temperature\":\"30.3\"}"
+				}
+			]
+		}
+	}
+}

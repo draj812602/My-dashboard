@@ -1,0 +1,66 @@
+input,
+select {
+	border-bottom: 1px solid #8898b5 !important;
+	border-radius: 6px !important;
+	z-index: 0 !important;
+}
+
+input:hover,
+select:hover {
+	border-bottom: 1px solid #bac3d5 !important;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active {
+	border: 1px solid #bac3d5 !important;
+}
+
+select {
+	padding: 0px !important;
+}
+input:disabled,
+select:disabled {
+	border-bottom: 1px solid #d2d2d2 !important;
+}
+
+input[type='range']:disabled {
+	border-bottom: 0px solid #d2d2d2 !important;
+	cursor: text !important;
+	background-color: #f2f2f2 !important;
+}
+
+.error_input {
+	border: 1px solid #ff6150 !important;
+}
+.error_input:focus {
+	border: 1px solid #ff6150 !important;
+}
+.error_input:hover {
+	border: 1px solid #ff6150 !important;
+}
+select {
+	padding-left: 8px !important;
+}
+
+input[type='number'] {
+	padding-left: 6px !important;
+	padding-right: 2px !important;
+}
+.test {
+	min-width: 100px !important;
+}
+
+input[type='color']:disabled {
+	cursor: auto !important;
+}
+
+input[type='color']:disabled {
+	cursor: auto !important;
+	border: none !important;
+	border-bottom: 0px solid #d2d2d2 !important;
+}
+input[type='color']:focus {
+	border: none !important;
+}
